@@ -29,8 +29,7 @@
         removeButtons.forEach((removeButton, taskIndex) => {
             removeButton.addEventListener("click", () => {
                 removeTask(taskIndex);
-            });
-        });
+            })})};
 
     const bindToggleDoneEvents = () => {
             const toggleDoneButtons = document.querySelectorAll(".js-toggleDone");
@@ -96,5 +95,4 @@
         };
 
         init();
-    }
-};
+    };
