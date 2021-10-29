@@ -68,7 +68,7 @@
             document.querySelector(".js-tasks").innerHTML = htmlString;
 
             bindRemoveEvents();
-            bindToggleDoneEvents();
+            bindToggleDoneEvents();           
     };
 
     const onFormSubmit = (event) => {
