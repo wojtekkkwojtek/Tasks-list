@@ -53,7 +53,7 @@
             ${task.done ? "ok" : ""}
             </button>
             
-            <span class="tasks__content${task.done ? "tasks__content--done" : ""}">
+            <span class="tasks__content ${task.done ? "tasks__content--done" : ""}">
             ${task.content}
             </span>
             
