@@ -51,7 +51,7 @@
             
             <li class="tasks__item js-tasks">
             <button class="tasks__button tasks__button--toggleDone js-toggleDone">
-            ${task.done ? "ok" : ""}
+            ${task.done ? "✓" : ""}
             </button>
             
             <span class="tasks__content ${task.done ? "tasks__content--done" : ""}">
@@ -59,7 +59,7 @@
             </span>
             
             <button class="tasks__button tasks__button--remove js-remove">
-            USUŃ
+            🗑
             </button>
             </li>
             `;
