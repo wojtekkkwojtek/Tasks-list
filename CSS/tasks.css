@@ -19,34 +19,34 @@
 
 .tasks__button {
     border: none;
-    color: white;
+    background-color: white;
     width: 30px;
     height: 30px;
     padding: 0;
 }
 
 .tasks__button--toggleDone {
-    color: rgb(0, 128, 64)
+    background-color: rgb(0, 128, 64)
 }
 
 .tasks__button--toggleDone:hover {
-    color: rgb(0, 128, 34)
+    background-color: rgb(0, 128, 34)
 }
 
 .tasks__button--toggleDone:active {
-    color: rgb(0, 128, 14)
+    background-color: rgb(0, 128, 14)
 }
 
 .tasks__button--remove {
-    color: rgb(199, 3, 3)
+    background-color: rgb(199, 3, 3)
 }
 
 .tasks__button--remove:hover {
-    color: rgb(220, 3, 3)
+    background-color: rgb(220, 3, 3)
 }
 
 .tasks__button--remove:active {
-    color: rgb(250, 3, 3)
+    background-color: rgb(250, 3, 3)
 }
 
 
