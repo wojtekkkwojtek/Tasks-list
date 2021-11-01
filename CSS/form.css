@@ -22,11 +22,13 @@
     border: none;
 }
 
+.form__button:hover {
+    background: rgb(0, 128, 90);
+}
+
 .form__button:active {
     background: rgb(0, 128, 43);
 }
 
-.form__button:hover {
-    background: rgb(0, 128, 90);
-}
+
 
