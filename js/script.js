@@ -55,9 +55,10 @@
     };
 
     const renderTasks = () => {
-        const taskToHTML = task => `
+        const taskToHTML = task => 
             
-        <li class="tasks__item ${task.done && hideDoneTasks ? "tasks__item--hidden" : ""} js-tasks">
+        `<li class="tasks__item ${task.done && hideDoneTasks ? "tasks__item--hidden" : ""} 
+        js-tasks">
         <button class="tasks__button tasks__button--toggleDone js-toggleDone">
         ${task.done ? "✓" : ""}
         </button>
@@ -67,8 +68,7 @@
         <button class="tasks__button tasks__button--remove js-remove">
         🗑
         </button>
-        </li>
-        `;
+        </li>`;
 
         const tasksElement = document.querySelector(".js-tasks");
         tasksElement.innerHTML = tasks.map(taskToHTML).join("");
@@ -82,14 +82,14 @@
             return;
         }
 
-        buttonsElement.innerHTML = `
-        <button class="buttons__button js-toggleHideDoneTasks">
+        buttonsElement.innerHTML = 
+        `<button class="buttons__button js-toggleHideDoneTasks">
         ${hideDoneTasks ? "Pokaż" : "Ukryj"} zrobione
         </button>
         <button class="buttons__button js-markAllDone"
-        ${tasks.every(({ done }) => done) ? "disabled" : ""}> Ukończ wszystkie
-        </button>
-        `;
+        ${tasks.every(({ done }) => done) ? "disabled" : ""}> 
+        Ukończ wszystkie
+        </button>`;
     };
 
     const bindButtonsEvents = () => {
