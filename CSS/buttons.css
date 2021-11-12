@@ -1,6 +1,7 @@
 .buttons {
     display: flex;
     flex-wrap: wrap;
+    font-size: medium;
 }
 
 .buttons__button {
@@ -18,10 +19,14 @@
     }
 }
 
-.buttons__button--hover {
-    color: tomato;
+.buttons__button:hover {
+    color: rgb(2, 73, 73);
 }
 
-.buttons__button--disabled {
+.buttons__button:active {
+    color: rgb(1, 22, 22);
+}
+
+.buttons__button:disabled {
     color: #ccc;
 }
